@@ -26,28 +26,49 @@ The application follows a client-server architecture, with the following compone
 
 ## Installation and Setup
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) and npm installed on your machine.
-- MongoDB setup (you can use a local instance or MongoDB Atlas for a cloud-based setup).
+## Prerequisites
 
-### Steps
+Before you begin, ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/) (local installation or MongoDB Atlas account)
+- [Git](https://git-scm.com/)
+
+## Installation
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/blog-app.git
    cd blog-app
-## Install server dependencies
-npm install
+   ```
 
-## Move to the client directory and install dependencies
-cd client
-npm install  
-# Make sure MongoDB is running on your machine. If you’re using MongoDB Atlas, configure your connection string accordingly in the application.  
-# Start the server
-npm run server
+2. **Install server dependencies**:
+   ```bash
+   npm install
+   ```
 
-## In a new terminal, start the client
-cd client
-npm start  
+3. **Install client dependencies**:
+   ```bash
+   cd client
+   npm install
+   ```
+
+## Configuration
+
+Make sure MongoDB is running on your machine. If you're using MongoDB Atlas, configure your connection string accordingly in the application.
+
+## Running the Application
+
+1. **Start the server**:
+   ```bash
+   npm run server
+   ```
+
+2. **In a new terminal, start the client**:
+   ```bash
+   cd client
+   npm start
+   ```
+
 
 ## Usage
 - **Create and Manage Blog Posts**: Use the rich text editor to create and format posts, add tags, and upload media.
