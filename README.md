@@ -35,17 +35,17 @@ The application follows a client-server architecture, with the following compone
    ```bash
    git clone https://github.com/your-username/blog-app.git
    cd blog-app
-# Install server dependencies
+## Install server dependencies
 npm install
 
-# Move to the client directory and install dependencies
+## Move to the client directory and install dependencies
 cd client
 npm install  
 # Make sure MongoDB is running on your machine. If you’re using MongoDB Atlas, configure your connection string accordingly in the application.  
 # Start the server
 npm run server
 
-# In a new terminal, start the client
+## In a new terminal, start the client
 cd client
 npm start  
 
