@@ -59,7 +59,7 @@ A modern blogging platform built with the MERN (MongoDB, Express.js, React, Node
 
 1. Clone the repository
 ```bash
-git clone [repository-url]
+git clone https://github.com/Praneetm1403/Blog-Website.git
 cd blog-application
 ```
 
